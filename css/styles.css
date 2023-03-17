@@ -1,10 +1,11 @@
+
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
-    font-weight: 400;
+  /*  font-weight: 400;
     font-size: 16px;
     line-height: cakc(24 / 16);
-    color: #434455;
+    color: #434455;*/
 }
 
 .list {
@@ -18,24 +19,33 @@ body {
     cursor: pointer;
 }
 
-
 .page-header {}
 
 .page-nav {}
 
 .logo {
-    font-family: 'Raleway' sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: calc(24 / 18);
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .logo-dark {
     color: #2E2F42;
 }
+
+.logo-wiht {
+    color: #F4F4FD;
+ }
+
+.footer-text {
+    color: #E7E9FC;
+    background: #2E2F42;
+}
+
 
 .menu {}
 
@@ -60,7 +70,7 @@ body {
 .contact {
     font-size: 16px;
     line-height: cakc(24 / 16);
-    /*color: #434455;*/
+    color: #434455;
     font-style: normal
 }
 
@@ -137,7 +147,7 @@ color: #2E2F42;
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    /*color: #434455;*/
+    color: #434455;
 }
 
 
@@ -149,6 +159,7 @@ color: #2E2F42;
         color: #4D5AE5;
         background: #F4F4FD;
         cursor: pointer;
+        
  }
 
  .btn-main:hover,
@@ -158,19 +169,31 @@ color: #2E2F42;
 
  }
 
-.footer-logo {
-    background: #2E2F42;
-}
+ /*=====================FOOTER======================*/
 
+/*.footer-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    background: #2E2F42;*/
 
-
- .logo-white {
+ .logo-wiht {
     color: #F4F4FD;
  }
 
- .footer-tex {
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
-        color: #E7E9FC;
+ /*.footer-logo-tex {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;*/
+ }
+
+ .footer-text {
+     color: #E7E9FC;
+     background: #2E2F42;
  }
