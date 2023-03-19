@@ -7,8 +7,7 @@
     --background-color: #f4f4fd;
     --border-solid: #e7e9fc;
     --hero-text-color:#FFFFFF;
-
-    
+  
 }
 
 body {
@@ -18,7 +17,7 @@ body {
     font-size: 16px;
     line-height: cakc(24 / 16);
     color:var(--main-text-color);
-    background-color: var(--background-color);
+    background-color:var(--hero-text-color);
     
 }
 
@@ -39,11 +38,15 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
+    
 }
 
 .logo-dark {
     color: var(--navy-blue-color)
+}
+
+.link {
+    text-decoration: none;
 }
 
 /*
