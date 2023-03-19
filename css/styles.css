@@ -205,12 +205,14 @@ color: #2E2F42;*/
  .team-list-img {
     background-color: #FFFFFF;
  }
-
+.memoryH {
+    visibility: hidden;
+    }
 
  /*====================PORTFOLIO BODY=====================*/
 
  
-.heading-list{
+.heading-list {
 visibility: hidden;
 }
  
