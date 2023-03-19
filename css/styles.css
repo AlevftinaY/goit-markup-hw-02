@@ -1,22 +1,28 @@
 
+:root {
+    --navy-blue-color: #2e2f42;
+    --main-text-color: #434455;
+    --iris-color: #4d5ae5;
+    --active-color: #404bbf;
+    --background-color: #f4f4fd;
+    --border-solid: #e7e9fc;
+    --hero-text-color:#FFFFFF;
+
+    
+}
+
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
-  /*  font-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: cakc(24 / 16);
-    color: #434455;*/
+    color:var(--main-text-color)
 }
 
 .list {
     list-style: none;
-    cursor: pointer;
-        
-}
-
-.list {
-    text-decoration: none;
-    cursor: pointer;
+    cursor: pointer;  
 }
 
 .page-header {}
@@ -24,28 +30,19 @@ body {
 .page-nav {}
 
 .logo {
-    color: #4D5AE5;
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    color:var(--iris-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-dark {
-    color: #2E2F42;
+    color: var(--navy-blue-color)
 }
-
-.logo-wiht {
-    color: #F4F4FD;
- }
-
-.footer-text {
-    color: #E7E9FC;
-    background: #2E2F42;
-}
-
 
 .menu {}
 
@@ -57,12 +54,13 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: cakc(24 / 16);
-    color: #2E2F42;
+   color:var(--navy-blue-color);
+    text-decoration: none;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color:var(--active-color)
 }
 
 /*---------------- CONTACT -----------------*/
@@ -70,17 +68,16 @@ body {
 .contact {
     font-size: 16px;
     line-height: cakc(24 / 16);
-    color: #434455;
-    font-style: normal
+    color:var(--main-text-color);
+    font-style: normal;
+    text-decoration: none;
 }
 
 
 .contact:hover,
 .contact:focus {
-    color: #404BBF;
+    color:var(--active-color);
 }
-
-
 
 /*-------------- HERO ------------------*/
 
@@ -93,8 +90,8 @@ body {
     line-height: calc(60 / 56);
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    background: #2E2F42;
+    color:var(--hero-text-color);
+    background:var(--navy-blue-color);
 }
 
 .modal-btn {
@@ -102,21 +99,23 @@ body {
     font-size: 16px;
     line-height: cakc(24 / 16);
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color:var(--hero-text-color);
+    background:var(--iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: #404BBF;
+    background-color:var(--active-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 
 
-.feature-hero {}
+.feature-hero {
+    color: var(--main-text-color);
+}
 
 .menu {}
 
@@ -126,28 +125,28 @@ body {
 
 
 .hero-aside{
-
 }
-.font-weight: 700;
+
+/*.font-weight: 700;
 font-size: 36px;
 line-height: calc(40 / 36);
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: #2E2F42;*/
 
 .hero-item {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--navy-blue-color);
 }
 
 .hero-desc {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #434455;
+
 }
 
 
@@ -156,22 +155,31 @@ color: #2E2F42;
         font-size: 16px;
         line-height: calc(24 / 16);
         letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background: #F4F4FD;
+        color:var(--iris-color);
+        background:var(--background-color);
         cursor: pointer;
         
  }
 
  .btn-main:hover,
  .btn-main:focus {
-    color: #FFFFFF;
-    background: #404BBF;
-
+    color:var(--hero-text-color);
+    background:var(--active-color);
  }
 
  /*=====================FOOTER======================*/
 
-/*.footer-logo {
+/*
+--navy-blue-color: #2e2f42;
+    --main-text-color: #434455;
+    --iris-color: #4d5ae5;
+    --active-color: #404bbf;
+    --background-color: #f4f4fd;
+    --border-solid: #e7e9fc;
+    
+
+
+.footer-logo {
     font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -181,7 +189,7 @@ color: #2E2F42;
     background: #2E2F42;*/
 
  .logo-wiht {
-    color: #F4F4FD;
+    color:var(--background-color);
  }
 
  /*.footer-logo-tex {
@@ -190,10 +198,10 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #E7E9FC;*/
- }
+    color: #E7E9FC;
+ }*/
 
  .footer-text {
-     color: #E7E9FC;
-     background: #2E2F42;
+     color:var(--border-solid);
+     background:var(--navy-blue-color);
  }
