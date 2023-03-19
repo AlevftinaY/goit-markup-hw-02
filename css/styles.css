@@ -154,12 +154,16 @@ color: var(--main-text-color);
 }
 
 /*----------------Section3---------*/
-.aside-list{
+.aside-title {
+
+}
+
+/*.aside-list{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var(--navy-blue-color);
+    color: var(--navy-blue-color);*/
 }
 
  .btn-main {
@@ -179,15 +183,15 @@ color: var(--main-text-color);
     color:var(--hero-text-color);
     background:var(--active-color);
  }
-/*.team {
+.aside-title .team-title {
     font-size: 36px;
     line-height: 1.11;
     background-color: #F4F4FD;
     text-transform: capitalize;
     color: var(--navy-blue-color);
     letter-spacing: 0.02em;
-}*/
- 
+}
+
  .ourteam {
     font-size: 36px;
     line-height: 1.11;
