@@ -87,8 +87,11 @@ body {
 
 /*-------------- HERO ------------------*/
 /*
-.hero {}
+
 .memory{}*/
+.hero {
+background: var(--navy-blue-color);
+}
 
 .hero-text {
     font-family: 'Roboto' sans-serif;
@@ -98,7 +101,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--hero-text-color);
-    background:var(--navy-blue-color);
+    
 }
 
 .modal-btn {
@@ -154,6 +157,14 @@ color: #2E2F42;*/
 }
 
 
+.aside-list{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+
  .btn-main {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -179,7 +190,7 @@ color: #2E2F42;*/
  /*====================PORTFOLIO BODY=====================*/
 
  .heading {
-    heading-list: hidden
+    heading-list: hidden;
 }
 
 /*heading-list:hidden {}*/
