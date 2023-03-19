@@ -132,19 +132,32 @@ color: var(--main-text-color);
 
 }
 /*----------------Section2---------*/
-/*.memory{}*/
+
 .feature-hero {
     color: var(--main-text-color);
 }
 
+.feature-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
 
-.feature-list {
+.feature-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+}
+
+/*.feature-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--navy-blue-color);
-}
+}*/
 
 .hero-desc .filtr-text {
     font-size: 16px;
@@ -206,7 +219,13 @@ color: var(--main-text-color);
 background-color: #F4F4FD
  }
 
-
+.team-item-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
 
 
 
