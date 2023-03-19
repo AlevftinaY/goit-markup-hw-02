@@ -185,9 +185,11 @@ color: #2E2F42;*/
 .team {
     font-size: 36px;
     line-height: 1.11;
-    
+    background-color: #F4F4FD;
     text-transform: capitalize;
     color: var(--navy-blue-color);
+    text-align: center;
+    letter-spacing: 0.02em;
 }
  
  .team-list {
