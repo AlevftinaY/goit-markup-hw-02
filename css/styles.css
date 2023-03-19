@@ -27,9 +27,6 @@ body {
 .page-nav {}*/
 
 
-
-
-
 .logo {
     color:var(--iris-color);
     font-family: "Raleway", sans-serif;
@@ -134,14 +131,14 @@ color: var(--main-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
-/*----------------Section1---------*/
+/*----------------Section2---------*/
 /*.memory{}*/
 .feature-hero {
     color: var(--main-text-color);
 }
 
 
-.hero-item.filtr-item {
+.hero-item .filtr-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -149,14 +146,14 @@ color: var(--main-text-color);
     color:var(--navy-blue-color);
 }
 
-.hero-desc.filtr-text {
+.hero-desc .filtr-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-
+/*----------------Section3---------*/
 .aside-list{
     font-size: 36px;
     line-height: 1.11;
@@ -182,21 +179,23 @@ color: var(--main-text-color);
     color:var(--hero-text-color);
     background:var(--active-color);
  }
-.team {
+/*.team {
     font-size: 36px;
     line-height: 1.11;
     background-color: #F4F4FD;
     text-transform: capitalize;
     color: var(--navy-blue-color);
-    text-align: center;
     letter-spacing: 0.02em;
-}
+}*/
  
- .team-list {
+ .ourteam {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+    letter-spacing: 0.02em;
+    
  }
  .team-list-img {
     background-color: #FFFFFF;
