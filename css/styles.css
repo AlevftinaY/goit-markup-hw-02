@@ -138,7 +138,7 @@ color: var(--main-text-color);
 }
 
 
-.hero-item {
+.feature-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -163,8 +163,8 @@ color: var(--main-text-color);
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var(--navy-blue-color);*/
-}
+    color: var(--navy-blue-color);
+}*/
 
  .btn-main {
     font-family: "Roboto", sans-serif;
@@ -174,8 +174,7 @@ color: var(--main-text-color);
     letter-spacing: 0.04em;
     color:var(--iris-color);
     background:var(--background-color);
-    cursor: pointer;
-        
+    cursor: pointer;  
  }
 
  .btn-main:hover,
@@ -183,10 +182,11 @@ color: var(--main-text-color);
     color:var(--hero-text-color);
     background:var(--active-color);
  }
-.aside-title .team-title {
+.aside-title, .team-title {
     font-size: 36px;
     line-height: 1.11;
     background-color: #F4F4FD;
+    text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue-color);
     letter-spacing: 0.02em;
@@ -201,10 +201,23 @@ color: var(--main-text-color);
     letter-spacing: 0.02em;
     
  }
+ /*===========Section4==========*/
+ .team {
+background-color: #F4F4FD
+ }
+
+
+
+
+
+
+
+
+
  .team-list-img {
     background-color: #FFFFFF;
  }
-.memory {
+.feature-memory {
     visibility: hidden;
     }
 
@@ -219,7 +232,6 @@ visibility: hidden;
 text-decoration: none;
 
 }
-hero-item
 /*heading-list:hidden {}*/
 
  /*=====================Підваал======================*/
@@ -243,8 +255,13 @@ hero-item
     color: #4D5AE5;
     background: #2E2F42;*/
 
+.footer {
+    background-color: var(--navy-blue-color);
+}
+
  .logo-wiht {
     color:var(--background-color);
+    color: #f4f4fd;
  }
 
  .footer-text {
