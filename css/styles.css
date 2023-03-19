@@ -93,6 +93,10 @@ body {
 background: var(--navy-blue-color);
 }
 
+.hero-desc {
+color: var(--main-text-color);
+}
+
 .hero-text {
     font-family: 'Roboto' sans-serif;
     font-weight: 700;
@@ -144,7 +148,7 @@ color: #2E2F42;*/
 .hero-item {
     font-weight: 500;
     font-size: 20px;
-    line-height: calc(24 / 20);
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--navy-blue-color);
 }
@@ -153,7 +157,7 @@ color: #2E2F42;*/
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    color: var(--main-text-color);
 }
 
 
@@ -193,7 +197,10 @@ color: #2E2F42;*/
 }
  
  .team-list {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em
  }
  .team-list-img {
     background-color: #FFFFFF;
@@ -206,11 +213,12 @@ color: #2E2F42;*/
 .heading-list{
 visibility: hidden;
 }
-  /*
-.photo-list {
-    
-}*/
+ 
+.main-ph {
+text-decoration: none;
 
+}
+hero-item
 /*heading-list:hidden {}*/
 
  /*=====================FOOTER======================*/
