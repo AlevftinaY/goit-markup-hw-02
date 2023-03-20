@@ -12,10 +12,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 0.02em;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     color:var(--main-text-color);
     background-color:var(--hero-text-color);
     
@@ -23,6 +21,7 @@ body {
 
 /*
 .page-header {}
+aside-title
 
 .page-nav {}*/
 
@@ -59,7 +58,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-   color:var(--navy-blue-color);
+    letter-spacing: 0.02em;
+    color:var(--navy-blue-color);
     text-decoration: none;
 }
 
@@ -73,6 +73,7 @@ body {
 .contact {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color:var(--main-text-color);
     font-style: normal;
     text-decoration: none;
@@ -92,6 +93,8 @@ background: var(--navy-blue-color);
 
 /*
 .hero-list {}
+line-height: 1.5;
+letter-spacing: 0.02em;
 .menu {}
 .list {}
 
@@ -148,6 +151,7 @@ font-weight: 500;
 .feature-desc {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
@@ -198,7 +202,6 @@ font-weight: 500;
 .aside-title, .team-title {
     font-size: 36px;
     line-height: 1.11;
-    background-color: #F4F4FD;
     text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue-color);
@@ -216,7 +219,7 @@ font-weight: 500;
  }
  /*===========Section4==========*/
  .team {
-background-color: #F4F4FD
+
  }
 
 .team-item-title, .filtr-item {
@@ -283,6 +286,7 @@ filtr-text
  }
 
  .footer-text, .footer {
+    letter-spacing: 0.02em;
      color:var(--border-solid);
      background:var(--navy-blue-color);
  }
