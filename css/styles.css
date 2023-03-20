@@ -282,7 +282,7 @@ filtr-text
     color: #f4f4fd;
  }
 
- .footer-text {
+ .footer-text, .footer {
      color:var(--border-solid);
      background:var(--navy-blue-color);
  }
